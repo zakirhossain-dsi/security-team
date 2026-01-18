@@ -3,7 +3,7 @@ data "terraform_remote_state" "network" {
   config = {
     organization = "rbts"
     workspaces = {
-      name = "network-project"
+      name = "network-team"
     }
   }
 }
